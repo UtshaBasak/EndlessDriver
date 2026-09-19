@@ -96,8 +96,10 @@ source venv/bin/activate
 ### 3. Install dependencies
 
 ```bash
-pip install PyOpenGL PyOpenGL_accelerate
+pip install -r requirements.txt
 ```
+
+That installs **PyOpenGL**. The optional `PyOpenGL-accelerate` package is listed but commented out — uncomment it in `requirements.txt` for a small performance boost, if your platform can build C extensions.
 
 **Platform notes for GLUT:**
 
@@ -216,11 +218,15 @@ Everything is immediate-mode OpenGL:
 
 ```
 EndlessDriver/
-├── EndlessDriver.py    # The entire game (~830 lines)
-└── README.md
+├── .github/
+│   └── dependabot.yml   # Weekly dependency update checks
+├── .gitignore
+├── EndlessDriver.py     # The entire game (~830 lines)
+├── README.md
+└── requirements.txt     # PyOpenGL
 ```
 
-Single file, no assets, no build step. Inside, the code is organised as:
+The game itself is a single file — no assets, no build step. Inside, the code is organised as:
 
 | Section | Contents |
 |---|---|
