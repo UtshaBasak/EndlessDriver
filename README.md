@@ -343,12 +343,6 @@ Project: <https://github.com/UtshaBasak/EndlessDriver>
 
 ---
 
-## License
-
-No license file is currently included, so all rights are reserved by the author by default. If you want this to be open source, adding an [MIT License](https://choosealicense.com/licenses/mit/) is the usual next step.
-
----
-
 <p align="center">
   <i>Built with Python, PyOpenGL and a lot of glPushMatrix.</i><br>
   Star the repo if you enjoyed it!
