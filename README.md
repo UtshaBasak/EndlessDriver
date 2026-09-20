@@ -335,14 +335,6 @@ Please keep the project dependency-free beyond PyOpenGL, and match the existing 
 
 ---
 
-## Author
-
-**Utsha Basak** — [@UtshaBasak](https://github.com/UtshaBasak)
-
-Project: <https://github.com/UtshaBasak/EndlessDriver>
-
----
-
 <p align="center">
   <i>Built with Python, PyOpenGL and a lot of glPushMatrix.</i><br>
   Star the repo if you enjoyed it!
